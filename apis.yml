@@ -12,13 +12,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swiftstack.png
 name: SwiftStack
-description: SwiftStack was a software-defined object and cloud storage company whose data
-  platform managed unstructured data at scale across private data centers and public clouds using a
-  distributed, shared-nothing architecture built on OpenStack Swift, targeting AI, deep learning, and
-  large-dataset workloads. NVIDIA acquired SwiftStack in 2020; the data platform is no longer available
-  for sale and only existing-customer support and portal resources remain. This profile was surfaced as
-  a portfolio company of Mayfield and enriched by the API Evangelist pipeline, which confirmed there is
-  no active public API, developer portal, or SDK surface for the discontinued product.
+description: SwiftStack was a software-defined object and cloud storage company whose data platform managed unstructured
+  data at scale across private data centers and public clouds using a distributed, shared-nothing architecture built
+  on OpenStack Swift, targeting AI, deep learning, and large-dataset workloads. NVIDIA acquired SwiftStack in 2020;
+  the data platform is no longer available for sale and only existing-customer support and portal resources remain.
+  This profile was surfaced as a portfolio company of Mayfield and enriched by the API Evangelist pipeline, which
+  confirmed there is no active public API, developer portal, or SDK surface for the discontinued product.
 url: https://raw.githubusercontent.com/api-evangelist/swiftstack/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -31,7 +30,7 @@ x-acquired-by: nvidia
 x-acquired-year: 2020
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-08-21'
 tags:
 - Company
 - Object Storage
@@ -43,6 +42,11 @@ tags:
 - OpenStack
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/nvidia/
+  name: Nvidia
+  x-relationship: acquisition
+  x-generated-by: nvidia-family:2026-08-21
 - type: Website
   url: https://www.nvidia.com/en-us/data-center/swiftstack/
 - type: Support
@@ -58,3 +62,5 @@ x-enrichment:
   artifacts_added: 0
   pass: local-v1
   notes: Acquired by NVIDIA 2020; product discontinued; no public API surface.
+x-parent: nvidia
+x-relationship: acquisition
