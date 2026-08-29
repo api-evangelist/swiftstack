@@ -30,6 +30,8 @@ description: SwiftStack was a software-defined object and cloud storage company 
   This profile was surfaced as a portfolio company of Mayfield and enriched by the API Evangelist pipeline, which
   confirmed there is no active public API, developer portal, or SDK surface for the discontinued product.
 url: https://raw.githubusercontent.com/api-evangelist/swiftstack/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
